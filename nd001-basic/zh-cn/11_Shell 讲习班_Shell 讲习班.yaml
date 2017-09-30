@@ -666,7 +666,7 @@ concepts:
             execution_language: python
             executor_grading_code: print(open('studentMain.py').read())
             gae_grading_code: |-
-              # Get student input. ***
+              # Get student input.
               text = executor_result['stdout']
               problems = []
 
@@ -965,7 +965,7 @@ concepts:
 
             实际上可以使用 `grep` 进行一整套的复杂语言搜索操作，这门课程根本讲不完。
 
-            很多其他程序也用到正则表达式，包括文本编辑器以及这道测验。这道测验的正确答案是正则表达式 `^[Rr]eg.*[Ee]x.*`，表示任何以 `reg` 开头并具有 `ex`，且大写和小写的 R 和 E 都可以的字符串。 **
+            很多其他程序也用到正则表达式，包括文本编辑器以及这道测验。这道测验的正确答案是正则表达式 `^[Rr]eg.*[Ee]x.*`，表示任何以 `reg` 开头并具有 `ex`，且大写和小写的 R 和 E 都可以的字符串。
           video_feedback: null
           matchers:
             - semantic_type: RegexMatcher
