@@ -1068,19 +1068,19 @@ concepts:
               expression: echo LOGNAME PWD
               expression_description: null
               flags: ''
-              incorrect_feedback: '在调用变量的内容前，你需要变量名之前输入一些东西.'
+              incorrect_feedback: '在使用变量的内容时，变量名前面需要加一些东西。'
             - semantic_type: RegexMatcher
               is_correct: false
               expression: echo \$logname \$pwd
               expression_description: null
               flags: ''
-              incorrect_feedback: '记住, shell 是区分大小写的. 大写的 `$LOGNAME` 和小写的 `$logname` 是两个不同的值.'
+              incorrect_feedback: '记住, shell 是区分大小写的。大写的 `$LOGNAME` 和小写的 `$logname` 是两个不同的变量。'
             - semantic_type: RegexMatcher
               is_correct: false
               expression: echo logname pwd
               expression_description: null
               flags: ''
-              incorrect_feedback: '在调用变量的内容前，你需要变量名之前输入一些东西. 而且, shell 是区分大小写的; 确认一下你是否正确使用了大小写.'
+              incorrect_feedback: '在调用变量的内容前，你需要变量名之前输入一些东西。而且，shell 是区分大小写的，确认一下你是否正确使用了大小写。'
   - id: 369944
     key: e8bb8107-2004-4d27-a053-cc7c277cd20b
     locale: zh-cn
