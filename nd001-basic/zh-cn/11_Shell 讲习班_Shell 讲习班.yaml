@@ -323,7 +323,7 @@ concepts:
 
             `ls Pictures` 是最直接的方式。
 
-            `cd Pictures; ls` 将路径改为 `Pictures` 子目录，然后在该目录中运行 `ls`。
+            `cd Pictures; ls` 将工作目录改为 `Pictures` 子目录，然后在该目录中运行 `ls`。
 
             `ls Pictures/../Pictures` 有点啰嗦，但是可行。
           video_feedback: null
@@ -1068,19 +1068,19 @@ concepts:
               expression: echo LOGNAME PWD
               expression_description: null
               flags: ''
-              incorrect_feedback: There's something you need to put before the name of a variable when you want to use its value.
+              incorrect_feedback: '在调用变量的内容前，你需要变量名之前输入一些东西.'
             - semantic_type: RegexMatcher
               is_correct: false
               expression: echo \$logname \$pwd
               expression_description: null
               flags: ''
-              incorrect_feedback: 'Remember, the shell is case-sensitive. Uppercase `$LOGNAME` and lowercase `$logname` would be two different variables.'
+              incorrect_feedback: '记住, shell 是区分大小写的. 大写的 `$LOGNAME` 和小写的 `$logname` 是两个不同的值.'
             - semantic_type: RegexMatcher
               is_correct: false
               expression: echo logname pwd
               expression_description: null
               flags: ''
-              incorrect_feedback: 'There''s something you need to put before the name of a variable when you want to use its value. Also, the shell is case-sensitive; make sure to match upper- and lower-case exactly.'
+              incorrect_feedback: '在调用变量的内容前，你需要变量名之前输入一些东西. 而且, shell 是区分大小写的; 确认一下你是否正确使用了大小写.'
   - id: 369944
     key: e8bb8107-2004-4d27-a053-cc7c277cd20b
     locale: zh-cn
