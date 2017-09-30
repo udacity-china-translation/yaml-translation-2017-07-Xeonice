@@ -128,7 +128,7 @@ concepts:
         key: e60ecaa0-0112-40a4-b2c1-076d853f8b0a
         locale: zh-cn
         version: 1.0.0
-        title: Install Git Bash on your Windows computer.
+        title: 在你的 Windows 电脑上安装 Git Bash.
         semantic_type: TaskListAtom
         updated_at: 'Mon Sep 11 2017 16:15:41 GMT+0000 (UTC)'
         is_public: true
@@ -323,7 +323,7 @@ concepts:
 
             `ls Pictures` 是最直接的方式。
 
-            `cd Pictures; ls` 将目录改为 `Pictures` 子目录，然后在该目录中运行 `ls`。
+            `cd Pictures; ls` 将路径改为 `Pictures` 子目录，然后在该目录中运行 `ls`。
 
             `ls Pictures/../Pictures` 有点啰嗦，但是可行。
           video_feedback: null
@@ -468,7 +468,7 @@ concepts:
               is_correct: true
               incorrect_feedback: null
             - id: a1489703332604
-              text: 是否检测文件有没有病毒。
+              text: 检测文件是否含有病毒。
               is_correct: false
               incorrect_feedback: null
       - id: 369900
@@ -553,7 +553,7 @@ concepts:
         question:
           prompt: |
             假设我改变了主意，想要将 `epub` 文件从 `Documents/Books` 移回到 `Documents`。如何操作？我当前的工作目录是我的主目录，`Documents` 位于该目录中。 
-            请标记每个可行的答案：
+            请选择每个可行的答案：
           correct_feedback: null
           video_feedback:
             id: '51535'
@@ -565,7 +565,7 @@ concepts:
               uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58cb3726_ud206-010-shell-p6.1-mv-solution/ud206-010-shell-p6.1-mv-solution_480p.ogg'
               uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58cb3726_ud206-010-shell-p6.1-mv-solution/ud206-010-shell-p6.1-mv-solution_720p.mp4'
               uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58cb3726_ud206-010-shell-p6.1-mv-solution/hls/playlist.m3u8'
-          default_feedback: 不太正确！提示下：有三种可执行命令。
+          default_feedback: 不太正确！提示一下：有三种可执行命令。
           answers:
             - id: a1489703663112
               text: '`mv ''Documents/Books'' Documents`'
