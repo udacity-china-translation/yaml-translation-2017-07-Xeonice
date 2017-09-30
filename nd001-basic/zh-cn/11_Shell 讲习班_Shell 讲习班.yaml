@@ -119,9 +119,9 @@ concepts:
         text: |
           **提醒：本页面仅针对 Windows 设备！Mac 和 Linux 用户请跳到下个页面！**
 
-          从以下网页上下载 Git：https://git-scm.com/download/win
+          从该网页上下载 Git：https://git-scm.com/download/win
 
-          Windows 10 中已经有新的 Linux 兼容性系统，叫做 **Windows Subsystem for Linux (WSL)**。它是运行在 Windows 系统中的实验性迷你 Linux-OS，就像虚拟机。你可以从中访问你的 Windows 文件，但是在 Linux 和 Windows 之间分享文件存在一定的风险。未来，WSL 可能更加稳定，**但是现在，对于这门课程我们将使用 Git Bash。**
+          Windows 10 中已经有新的 Linux 兼容性系统，叫做 **Windows Subsystem for Linux (WSL)**。它是运行在 Windows 系统中的实验性迷你 Linux-OS，就像虚拟机。你可以从中访问你的 Windows 文件，但是在 Linux 和 Windows 之间分享文件存在一定的风险。未来，WSL 可能更加稳定，**但是现在，我们将使用 Git Bash 代替 WSL 进行学习。**
         instructor_notes: ''
         resources: null
       - id: 369890
@@ -186,7 +186,7 @@ concepts:
         is_public: true
         tasks:
           - 我已经在另一个窗口中打开终端。
-        positive_feedback: 现在看看可以对其采取哪些操作。
+        positive_feedback: 现在来看看我们可以对其采取哪些操作。
         video_feedback: null
         description: ''
   - id: 369935
@@ -259,11 +259,11 @@ concepts:
               is_correct: false
               incorrect_feedback: null
             - id: a1489702678549
-              text: shell 告诉我我的终端有多大。
+              text: shell 会告诉我我的终端有多大。
               is_correct: true
               incorrect_feedback: null
             - id: a1489702679172
-              text: shell 告诉我它有多大。
+              text: shell 会告诉我它有多大。
               is_correct: false
               incorrect_feedback: null
             - id: a1489702679836
@@ -317,7 +317,7 @@ concepts:
         question:
           prompt: |-
             哪些命令会列出 `Pictures` 目录下的内容？?  
-            Mark all that are correct.
+            选出所有的正确答案.
           correct_feedback: |-
             所有选项都正确！
 
@@ -450,7 +450,7 @@ concepts:
         is_public: true
         question:
           prompt: |
-            你可以从 `ls -l` 中找到哪些信息？要回答该问题，你可以需要调查下；使用你最喜欢的搜索引擎。
+            你可以从 `ls -l` 中找到哪些信息？要回答该问题，你也许需要调查下；使用你最喜欢的搜索引擎。
           correct_feedback: '`ls -l` 输出中还有更多的信息，但是这些非常重要。调查的很棒！'
           video_feedback: null
           default_feedback: 对于这道题，可以使用搜索引擎或其他资料寻找答案。要充分了解 shell，你可能需要阅读参考资料、博客、论坛和其他资源。
@@ -502,9 +502,9 @@ concepts:
               is_correct: false
               incorrect_feedback: 命令 `ls *bear*` 将列出名称包含 `bear` 的任何文件，即使位于中间或末尾，而不是开头。
             - id: a1489703508493
-              text: You can't.
+              text: 无法操作.
               is_correct: false
-              incorrect_feedback: 你行的！
+              incorrect_feedback: 不，你行的！
   - id: 369937
     key: d56564be-f4fe-41a7-8378-508338ecb28a
     locale: zh-cn
@@ -546,7 +546,7 @@ concepts:
         key: 01008773-0ea8-43bf-a254-30287f79252d
         locale: zh-cn
         version: 1.0.0
-        title: 再移回来
+        title: 回退至上一级
         semantic_type: CheckboxQuizAtom
         updated_at: 'Mon Sep 11 2017 16:15:58 GMT+0000 (UTC)'
         is_public: true
@@ -565,7 +565,7 @@ concepts:
               uri_480p_ogg: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58cb3726_ud206-010-shell-p6.1-mv-solution/ud206-010-shell-p6.1-mv-solution_480p.ogg'
               uri_720p_mp4: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58cb3726_ud206-010-shell-p6.1-mv-solution/ud206-010-shell-p6.1-mv-solution_720p.mp4'
               uri_hls: 'http://video.udacity-data.com.s3.amazonaws.com/topher/2017/March/58cb3726_ud206-010-shell-p6.1-mv-solution/hls/playlist.m3u8'
-          default_feedback: 不太正确！提示下：有三个命令将可行。
+          default_feedback: 不太正确！提示下：有三种可执行命令。
           answers:
             - id: a1489703663112
               text: '`mv ''Documents/Books'' Documents`'
@@ -666,7 +666,7 @@ concepts:
             execution_language: python
             executor_grading_code: print(open('studentMain.py').read())
             gae_grading_code: |-
-              # Get student input.
+              # Get student input. ***
               text = executor_result['stdout']
               problems = []
 
@@ -790,7 +790,7 @@ concepts:
         key: ef6b54fd-d362-4dcf-9c44-abdbdf3f5ad0
         locale: zh-cn
         version: 1.0.0
-        title: What's the next word?
+        title: 下一个单词是什么 ?
         semantic_type: ValidatedQuizAtom
         updated_at: 'Mon Sep 11 2017 16:16:10 GMT+0000 (UTC)'
         is_public: true
@@ -858,7 +858,7 @@ concepts:
             3. `Bad File`
             4. `Good Name Bad Face`
 
-            你想删掉第 3 个和第 4 个文件，并保留第 1 个和第 2 个文件。下面的两个命令可以实现这一操作，请选择：
+            你想删掉第 3 个和第 4 个文件，并保留第 1 个和第 2 个文件。下面有两个命令可以实现这一操作，请选择：
           correct_feedback: null
           video_feedback:
             id: '51538'
@@ -875,7 +875,7 @@ concepts:
             - id: a1489704901326
               text: '`rm ''Bad File'' ''Good Name Bad Face''`'
               is_correct: true
-              incorrect_feedback: 有两个选项是可行的。其中一个很啰嗦。
+              incorrect_feedback: 有两个选项是可行的。但其中一个很啰嗦。
             - id: a1489704929921
               text: '`rm *Bad*`'
               is_correct: false
@@ -935,9 +935,9 @@ concepts:
         is_public: true
         question:
           prompt: |
-            `dictionary.txt` 中有多少个单词符合规律 `ibo`？
+            `dictionary.txt` 中有多少个单词与 `ibo` 相匹配？
           default_feedback: 请使用 `grep` 和 `wc` 或 `grep -c` 得出该问题的答案！
-          correct_feedback: 从 `Claiborne` 到 `riboflavin`，该文件中有 22 个 `ibo`。
+          correct_feedback: 从 `Claiborne` 到 `riboflavin`，该文件中共有 22 个 `ibo`。
           video_feedback: null
           matchers:
             - semantic_type: RegexMatcher
@@ -965,7 +965,7 @@ concepts:
 
             实际上可以使用 `grep` 进行一整套的复杂语言搜索操作，这门课程根本讲不完。
 
-            很多其他程序也用到正则表达式，包括文本编辑器以及这道测验。这道测验的正确答案是正则表达式 `^[Rr]eg.*[Ee]x.*`，表示任何以 `reg` 开头并具有 `ex`，且大写和小写的 R 和 E 都可以的字符串。
+            很多其他程序也用到正则表达式，包括文本编辑器以及这道测验。这道测验的正确答案是正则表达式 `^[Rr]eg.*[Ee]x.*`，表示任何以 `reg` 开头并具有 `ex`，且大写和小写的 R 和 E 都可以的字符串。 **
           video_feedback: null
           matchers:
             - semantic_type: RegexMatcher
@@ -1184,7 +1184,7 @@ concepts:
         semantic_type: TextAtom
         updated_at: 'Mon Sep 11 2017 16:16:16 GMT+0000 (UTC)'
         is_public: true
-        text: '在本视频快结束时，有一个我用来构建长而复杂的 `$PS1` 提示符的工具的屏幕截图。该工具由 Julien Ricard 构建，网址为 http://bashrcgenerator.com by。请试试！'
+        text: '在本视频快结束时，有一个我用来构建长而复杂的 `$PS1` 提示符的工具的屏幕截图。该工具由 Julien Ricard 构建，网址为 http://bashrcgenerator.com。请试试！'
         instructor_notes: ''
         resources: null
   - id: 369946
